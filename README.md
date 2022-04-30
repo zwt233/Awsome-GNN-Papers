@@ -8,6 +8,47 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 ---
 
+## Contents
+
+- [Scalable-GNN](#application)
+   - [Linear Model](#cv)
+   - [Sampling](#sample)
+   - [Distributed Training](#DT)
+- [Knowledge Distillation on Graphs]
+- [AutoML on Graphs](#application)
+   - [Survey](#cv)
+   - [Tool](#sample)
+   - [Graph Neural Architecture Search](#DT)
+   - [Graph Hyper-Parameter Optimization]
+- [Graph Data Augmentation](#application)
+   - [Node-level tasks](#cv)
+   - [Graph-level tasks]
+   - [Edge-level tasks](#sample)
+   - [Graph data augmentation with self-supervised learning objectives]
+ - [Graph Structure Learning](#application)
+   - [Survey](#cv)
+   - [Representive GSL methods]
+
+<!-- - [Papers](#papers)
+  - [Recuurent Graph Neural Networks](#rgnn)
+  - [Convolutional Graph Neural Networks](#cgnn)
+  - [Graph Autoencoders](#gae)
+  	  - [Network Embedding](#ne)
+  	  - [Graph Generation](#gg)
+  - [Spatial-Temporal Graph Neural Networks](#stgnn)
+  - [Application](#application)
+     - [Computer Vision](#cv)
+     - [Natural Language Processing](#nlp)
+     - [Internet](#web)
+     - [Recommender Systems](#rec)
+     - [Healthcare](#health)
+     - [Chemistry](#chemistry)
+     - [Physics](#physics)
+     - [Others](#others)
+- [Library](#library) -->
+
+<a name="surveypapers" />
+
 # Scalable-GNN
 
 ## Linear Model
@@ -49,7 +90,7 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 2. **Towards Efficient Large-Scale Graph Neural Network Computing** [Arxiv 2018] [[paper]](https://arxiv.org/abs/1810.08403)
 3. **Sequential Aggregation and Rematerialization: Distributed Full-batch Training of Graph Neural Networks on Large Graphs** [Arxiv 2021] [[paper]](https://arxiv.org/abs/2111.06483) [[code]](https://github.com/IntelLabs/SAR)
 
-# Knowledge Distillation
+# Knowledge Distillation on Graphs
 
 1. **Distilling Knowledge from Graph Convolutional Networks** [CVPR 2020] [[paper]](https://arxiv.org/abs/2003.10477) [[code]](https://github.com/ihollywhy/DistillGCN.PyTorch)
 2. **Graph-Free Knowledge Distillation for Graph Neural Networks** [IJCAI 2021] [[paper]](https://arxiv.org/pdf/2105.07519.pdf) [[code]](https://github.com/Xiang-Deng-DL/GFKD)
