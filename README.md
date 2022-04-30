@@ -13,21 +13,21 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 - [Scalable-GNN](#Scalable-GNN)
    - [Linear Model](#Linear-Model)
    - [Sampling](#Sampling)
-   - [Distributed Training](#DT)
-- [Knowledge Distillation on Graphs]
-- [AutoML on Graphs](#application)
-   - [Survey](#cv)
-   - [Tool](#sample)
-   - [Graph Neural Architecture Search](#DT)
-   - [Graph Hyper-Parameter Optimization]
-- [Graph Data Augmentation](#application)
-   - [Node-level tasks](#cv)
-   - [Graph-level tasks]
-   - [Edge-level tasks](#sample)
-   - [Graph data augmentation with self-supervised learning objectives]
- - [Graph Structure Learning](#application)
-   - [Survey](#cv)
-   - [Representive GSL methods]
+   - [Distributed Training](#Distributed-Training)
+- [Knowledge Distillation on Graphs](#KD)
+- [AutoML on Graphs](#AutoML)
+   - [Survey](#AutoML-survey)
+   - [Tool](#AutoML-Tool)
+   - [Graph Neural Architecture Search](#GNAS)
+   - [Graph Hyper-Parameter Optimization](#GHPO)
+- [Graph Data Augmentation](#GDA)
+   - [Node-level tasks](#nlt)
+   - [Graph-level tasks](#glt)
+   - [Edge-level tasks](#elt)
+   - [Graph data augmentation with self-supervised learning objectives](ssl)
+ - [Graph Structure Learning](#gsl)
+   - [Survey](#gsl-survey)
+   - [Representive GSL methods](#gsl-models)
 
 <!-- - [Papers](#papers)
   - [Recuurent Graph Neural Networks](#rgnn)
@@ -52,6 +52,7 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 # Scalable-GNN
 
 <a name="Linear-Model" />
+
 ## Linear Model
 
 1. **Simplifying Graph Convolutional Networks** [ICML 2019] [[paper]](https://arxiv.org/abs/1902.07153) [[code]](https://github.com/Tiiiger/SGC)
@@ -64,6 +65,7 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 7. **NAFS: A Simple yet Tough-to-Beat Baseline for Graph Representation Learning** [OpenReview 2022] [[paper]](https://openreview.net/forum?id=dHJtoaE3yRP) [[code]](https://openreview.net/attachment?id=dHJtoaE3yRP&name=supplementary_material)
 
 <a name="Sampling" />
+
 ## Sampling
 
 ### Node-wise sampling
@@ -86,11 +88,15 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 2. **GraphSAINT: Graph Sampling Based Inductive Learning Method** [ICLR 2020] [[paper]](https://arxiv.org/abs/1907.04931) [[code]](https://github.com/GraphSAINT/GraphSAINT)
 3. **Large-Scale Learnable Graph Convolutional Networks** [KDD 2018] [[paper]](https://dl.acm.org/doi/abs/10.1145/3219819.3219947) [[code]](https://github.com/divelab/lgcn)
 
+<a name="Distributed-Training" />
+
 ## Distributed Training
 
 1. **DistGNN: Scalable Distributed Training for Large-Scale Graph Neural Networks** [Arxiv 2021] [[paper]](https://arxiv.org/abs/2104.06700) 
 2. **Towards Efficient Large-Scale Graph Neural Network Computing** [Arxiv 2018] [[paper]](https://arxiv.org/abs/1810.08403)
 3. **Sequential Aggregation and Rematerialization: Distributed Full-batch Training of Graph Neural Networks on Large Graphs** [Arxiv 2021] [[paper]](https://arxiv.org/abs/2111.06483) [[code]](https://github.com/IntelLabs/SAR)
+
+<a name="KD" />
 
 # Knowledge Distillation on Graphs
 
@@ -103,15 +109,23 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 ---
 
+<a name="AutoML" />
+
 # AutoML on Graphs
+
+<a name="AutoML-survey" />
 
 ## Survey
 
 1. **Automated Machine Learning on Graphs: A Survey** [IJCAI 2021] [[paper]](https://arxiv.org/abs/2103.00742)
 
+<a name="AutoML-Tool" />
+
 ## Tool
 
 1. **AutoGL: A Library for Automated Graph Learning** [ICLR 2021 GTRL workshop] [[paper]](https://openreview.net/pdf?id=0yHwpLeInDn) [[code]](https://github.com/THUMNLab/AutoGL) [[homepage]](https://mn.cs.tsinghua.edu.cn/AutoGL)
+
+<a name="GNAS" />
 
 ## Graph Neural Architecture Search
 
@@ -165,6 +179,8 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 1. **Auto-GNN: Neural Architecture Search of Graph Neural Networks** [Arxiv 2019] [[paper]](https://arxiv.org/abs/1909.03184) 
 
+<a name="GHPO" />
+
 ## Graph Hyper-Parameter Optimization
 
 ### 2021
@@ -187,7 +203,12 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 ---
 
+
+<a name="GDA" />
+
 # Graph Data Augmentation
+
+<a name="nlt" />
 
 ## Node-level tasks
 
@@ -222,6 +243,9 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 1. **Diffusion Improves Graph Learning** [NeurIPS 2019] [[paper]](https://arxiv.org/abs/1911.05485) [[code]](https://github.com/klicperajo/gdc)
 
+
+<a name="glt" />
+
 ## Graph-level tasks
 
 ### 2022
@@ -243,11 +267,15 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 1. **GraphCrop: Subgraph Cropping for Graph Classification** [Arxiv 2020] [[paper]](https://arxiv.org/abs/2009.10564)
 2. **M-Evolve: Structural-Mapping-Based Data Augmentation for Graph Classification** [CIKM 2020, IEEE TNSE 2021] [[paper CIKM]](https://dl.acm.org/doi/pdf/10.1145/3340531.3412086) [[paper_TNSE]](https://arxiv.org/pdf/2007.05700.pdf)
 
+<a name="elt" />
+
 ## Edge-level tasks
 
 1. **Counterfactual Graph Learning for Link Prediction** [Arxiv 2021] [[paper]](https://arxiv.org/abs/2106.02172) [[code]](https://github.com/DM2-ND/CFLP)
 2. **Adaptive Data Augmentation on Temporal Graphs** [NeurIPS 2021] [[paper]](https://proceedings.neurips.cc/paper/2021/hash/0b0b0994d12ad343511adfbfc364256e-Abstract.html) 
 3. **FLAG: Adversarial Data Augmentation for Graph Neural Networks** [OpenReview 2021] [[paper]](https://openreview.net/forum?id=mj7WsaHYxj)
+
+<a name="ssl" />
 
 ## Graph data augmentation with self-supervised learning objectives
 
@@ -291,11 +319,19 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 ---
 
+<a name="gsl" />
+
 # Graph Structure Learning
+
+<a name="gsl-survey" />
+
 
 ## Survey
 
 1. **A Survey on Graph Structure Learning: Progress and Opportunities** [Arxiv 2022] [[paper]](https://arxiv.org/abs/2103.03036)
+
+<a name="gsl-models" />
+
 
 ## Representive GSL methods
 
