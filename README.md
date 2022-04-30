@@ -10,7 +10,7 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 ## Contents
 
-- [Data]
+- Data-driven
    - [Graph Structure Learning](#gsl)
       - [Survey](#gsl-survey)
       - [Representive GSL methods](#gsl-models)
@@ -20,7 +20,7 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
       - [Edge-level tasks](#elt)
       - [Graph data augmentation with self-supervised learning objectives](ssl)
 
-- [Model]
+- Model-driven
    - [Scalable-GNN](#Scalable-GNN)
       - [Linear Model](#Linear-Model)
       - [Sampling](#Sampling)
@@ -32,9 +32,9 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
       - [Graph Neural Architecture Search](#GNAS)
       - [Graph Hyper-Parameter Optimization](#GHPO)
 
-- [System]
+- System-driven
 
-- [Application]
+- Application-driven
 
 
 
