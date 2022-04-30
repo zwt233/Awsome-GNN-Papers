@@ -15,6 +15,9 @@ Papers about GNNs. Topics include scalable GNNs, knowledge distillation for grap
       - [Graph-level tasks](#glt)
       - [Edge-level tasks](#elt)
       - [Graph data augmentation with self-supervised learning objectives](ssl)
+   - [Graph-based Active Learning](#gal)
+   - [Graph Data Imbalance](#gimb)
+   - [Graph Data Noise](#gnoise)
 
 - Model-driven
    - [Scalable-GNN](#Scalable-GNN)
@@ -27,10 +30,14 @@ Papers about GNNs. Topics include scalable GNNs, knowledge distillation for grap
       - [Tool](#AutoML-Tool)
       - [Graph Neural Architecture Search](#GNAS)
       - [Graph Hyper-Parameter Optimization](#GHPO)
+   - [Deep GNN](#DeepGNN)
 
 - System-driven
 
 - Application-driven
+   - [Recommendation System](#rs)
+   - [Drug Discovery](#ddc)
+   - [Fraud Detection](#fd)
 
 
 
