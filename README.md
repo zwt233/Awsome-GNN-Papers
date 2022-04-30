@@ -10,6 +10,15 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 ## Contents
 
+-[Data]
+
+-[Model]
+
+-[System]
+
+-[Application]
+
+
 - [Scalable-GNN](#Scalable-GNN)
    - [Linear Model](#Linear-Model)
    - [Sampling](#Sampling)
