@@ -1,6 +1,6 @@
-# Reading List on GNN Models
+# Reading List on GNNs
 
-Papers about GNNs. Topics include scalable GNNs, knowledge distillation for graphs, AutoML on  GNNs, etc. If you feel there are papers with related topics missing or any mistake in this list, do not hesitate to let us know (via issues or pull requests). 
+Papers about GNNs from data, model, system and application. If you feel there are papers with related topics missing or any mistake in this list, do not hesitate to let us know (via issues or pull requests). 
 
 ---
 
