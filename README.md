@@ -11,32 +11,35 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 ## Contents
 
 - [Data]
+   - [Graph Structure Learning](#gsl)
+      - [Survey](#gsl-survey)
+      - [Representive GSL methods](#gsl-models)
+   - [Graph Data Augmentation](#GDA)
+      - [Node-level tasks](#nlt)
+      - [Graph-level tasks](#glt)
+      - [Edge-level tasks](#elt)
+      - [Graph data augmentation with self-supervised learning objectives](ssl)
 
 - [Model]
+   - [Scalable-GNN](#Scalable-GNN)
+      - [Linear Model](#Linear-Model)
+      - [Sampling](#Sampling)
+      - [Distributed Training](#Distributed-Training)
+   - [Knowledge Distillation on Graphs](#KD)
+   - [AutoML on Graphs](#AutoML)
+      - [Survey](#AutoML-survey)
+      - [Tool](#AutoML-Tool)
+      - [Graph Neural Architecture Search](#GNAS)
+      - [Graph Hyper-Parameter Optimization](#GHPO)
 
 - [System]
 
 - [Application]
 
 
-- [Scalable-GNN](#Scalable-GNN)
-   - [Linear Model](#Linear-Model)
-   - [Sampling](#Sampling)
-   - [Distributed Training](#Distributed-Training)
-- [Knowledge Distillation on Graphs](#KD)
-- [AutoML on Graphs](#AutoML)
-   - [Survey](#AutoML-survey)
-   - [Tool](#AutoML-Tool)
-   - [Graph Neural Architecture Search](#GNAS)
-   - [Graph Hyper-Parameter Optimization](#GHPO)
-- [Graph Data Augmentation](#GDA)
-   - [Node-level tasks](#nlt)
-   - [Graph-level tasks](#glt)
-   - [Edge-level tasks](#elt)
-   - [Graph data augmentation with self-supervised learning objectives](ssl)
- - [Graph Structure Learning](#gsl)
-   - [Survey](#gsl-survey)
-   - [Representive GSL methods](#gsl-models)
+
+
+ 
 
 <!-- - [Papers](#papers)
   - [Recuurent Graph Neural Networks](#rgnn)
