@@ -10,9 +10,9 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 ## Contents
 
-- [Scalable-GNN](#application)
-   - [Linear Model](#cv)
-   - [Sampling](#sample)
+- [Scalable-GNN](#Scalable-GNN)
+   - [Linear Model](#Linear-Model)
+   - [Sampling](#Sampling)
    - [Distributed Training](#DT)
 - [Knowledge Distillation on Graphs]
 - [AutoML on Graphs](#application)
@@ -47,10 +47,11 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
      - [Others](#others)
 - [Library](#library) -->
 
-<a name="surveypapers" />
+<a name="Scalable-GNN" />
 
 # Scalable-GNN
 
+<a name="Linear-Model" />
 ## Linear Model
 
 1. **Simplifying Graph Convolutional Networks** [ICML 2019] [[paper]](https://arxiv.org/abs/1902.07153) [[code]](https://github.com/Tiiiger/SGC)
@@ -62,6 +63,7 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 7. **Graph Attention Multi-Layer Perceptron** [Arxiv 2021] [[paper]](https://arxiv.org/abs/2108.10097) [[code]](https://github.com/zwt233/GAMLP)
 7. **NAFS: A Simple yet Tough-to-Beat Baseline for Graph Representation Learning** [OpenReview 2022] [[paper]](https://openreview.net/forum?id=dHJtoaE3yRP) [[code]](https://openreview.net/attachment?id=dHJtoaE3yRP&name=supplementary_material)
 
+<a name="Sampling" />
 ## Sampling
 
 ### Node-wise sampling
