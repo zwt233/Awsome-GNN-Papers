@@ -2,10 +2,6 @@
 
 Papers about GNNs. Topics include scalable GNNs, knowledge distillation for graphs, AutoML on  GNNs, etc. If you feel there are papers with related topics missing or any mistake in this list, do not hesitate to let us know (via issues or pull requests). 
 
-The **AutoML on Graph** part refers to [[awesome-auto-graph-learning]](https://github.com/THUMNLab/awesome-auto-graph-learning) and completes its code links.
-
-The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]](https://github.com/zhao-tong/graph-data-augmentation-papers) and replaces some of its links.
-
 ---
 
 ## Contents
@@ -125,6 +121,8 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 
 # AutoML on Graphs
 
+This part refers to [[awesome-auto-graph-learning]](https://github.com/THUMNLab/awesome-auto-graph-learning) and completes its code links.
+
 <a name="AutoML-survey" />
 
 ## Survey
@@ -219,6 +217,8 @@ The **Graph Data Augmentation** part refers to [[graph-data-augmentation-papers]
 <a name="GDA" />
 
 # Graph Data Augmentation
+
+This part refers to [[graph-data-augmentation-papers]](https://github.com/zhao-tong/graph-data-augmentation-papers) and replaces some of its links.
 
 <a name="nlt" />
 
